@@ -1,0 +1,45 @@
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#header{
+    color: darkcyan;
+    font-family: monospace;
+    font-size: 30px;
+}
+.timerBtn{
+    width: 80px;
+    height : 30px;
+    border: 3px solid;
+    border-radius: 12px;
+    background-color: bisque;
+    color: darkred;
+    cursor: pointer;
+    font-family: consola, monospace;
+    
+}
+#timeDisplay{
+    font-size: 80px;
+    color: darkcyan;
+}
+#timeContainer{
+    text-align: center;
+    border: 3px solid;
+    border-radius: 25px;
+    background-color: beige;
+    width: 50%;
+    padding: 70px 0;
+    margin: auto;
+    display : flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
